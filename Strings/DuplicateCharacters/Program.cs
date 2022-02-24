@@ -2,7 +2,7 @@
 using System.Collections;
 using System.Text;
 
-namespace Strings
+namespace DuplicateCharacters
 {
     class Program
     {
@@ -40,7 +40,6 @@ namespace Strings
             }
 
             Console.WriteLine(sb);
-
         }
     }
 }
