@@ -4,7 +4,7 @@
 
 ## Overview
 
-Data Structures and Algorithms plays a key role in determining how our code will perform against Time and Space complexity. The questions and the solutions provided are focused on implementing the best practices to solve the problems.
+Data Structures and Algorithms play a key role in determining how our code will perform against Time and Space complexity. The questions and the solutions provided are focused on implementing the best practices to solve the problems.
 
 ## Coding Practice Questions using C# and .Net Core
 
