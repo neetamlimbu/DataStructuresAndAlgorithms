@@ -10,7 +10,7 @@ Data Structures and Algorithms play a key role in determining how our code will 
 
 Strings 
 
-1. How to Print duplicate characters in a String? (Solution)
+1. How to print duplicate characters in a String? [(Solution)](https://github.com/neetamlimbu/DataStructuresAndAlgorithms/tree/master/Strings/DuplicateCharacters) 
 2. How to check if two Strings are anagrams of each other? (Solution)
 3. How to reverse String in C# using Iteration and Recursion? (Solution)
 4. How to count number of words in a String? (Solution)
@@ -18,8 +18,7 @@ Strings
 6. How to remove duplicate characters from String? (Solution)
 7. How to return highest occurred character in a String? (Solution)
 8. How to determine if the string has all unique characters (Solution)
-9. Replace all spaces in a string with %20 (Solution)
-10. Find all substring in a string (Solution)
+
 
 
 Arrays
