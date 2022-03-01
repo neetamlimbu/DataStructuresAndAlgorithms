@@ -6,6 +6,11 @@ namespace LinearSearch
     {
         static void Main(string[] args)
         {
+            //Assumption 
+            //Array is unsorted
+            //Time complexity - O(n) 
+            //Space complexity - O(1)
+
             Console.WriteLine("Linear Search in Array...");
 
             int[] arr = { 1, 2, 3, 4, 5, 6 };
