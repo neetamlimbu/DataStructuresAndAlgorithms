@@ -10,13 +10,17 @@ namespace BinarySearch
 
             //Assumption 
             //Array is sorted
-            //Time complexity - O(log(n)) time
+            //Time complexity - O(log(n)) 
+            //Space complexity - O(1)
 
             int[] arr = { 1, 3, 10, 17, 25, 31, 40 };
             Console.WriteLine(Search(arr, 1));
             Console.WriteLine(Search(arr, 31));
             Console.WriteLine(Search(arr, 5));
             Console.WriteLine(Search(arr, 35));
+
+            //In built array functions
+            Console.WriteLine(Array.BinarySearch(arr, 31));
         }
 
         static bool Search(int[] inputArr, int item)
