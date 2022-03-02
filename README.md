@@ -8,7 +8,7 @@ Data Structures and Algorithms play a key role in determining how our code will 
 
 ## Coding Practice Questions using C# and .Net Core
 
-Strings 
+### Strings 
 
 1. How to print duplicate characters in a String? [(Solution)](https://github.com/neetamlimbu/DataStructuresAndAlgorithms/tree/master/Strings/DuplicateCharacters) 
 2. How to check if two Strings are anagrams of each other? [(Solution)](https://github.com/neetamlimbu/DataStructuresAndAlgorithms/tree/master/Strings/Anagrams)
@@ -19,9 +19,7 @@ Strings
 7. How to return highest occurred character in a String? [(Solution)](https://github.com/neetamlimbu/DataStructuresAndAlgorithms/tree/master/Strings/HighestOccurredCharacter)
 8. Find all substring in a string. [(Solution)](https://github.com/neetamlimbu/DataStructuresAndAlgorithms/tree/master/Strings/SubstringInAString)
 
-
-
-Arrays
+### Arrays
 
 1. Rotate array to a given pivot (Solution)
 2. Determine if any two integers in array sum to given integer (Solution)
@@ -34,7 +32,7 @@ Arrays
 9. Move zeros to end of array (Solution)
 10. How to check if array contains a duplicate number? (Solution)
 
-Numbers
+### Numbers
 
 1. How to swap two numbers without using a temp variable in C# (Solution)
 2. Write a C# program to determine total ways stairs can be climbed (Solution)
@@ -50,7 +48,7 @@ Numbers
 12. Write a C# program to do basic arithmetic calculations (Solution)
 13. C# program to display factor of entered number (Solution)
 
-Recursion
+### Recursion
 
 1. How to find factorial of a number using recursion ? (Solution)
 2. How to find the sum of digits of a number using recursion ? (Solution)
@@ -64,7 +62,7 @@ Recursion
 10. How to print a singly linked list backwards using recursion ? (Solution)
 11. Towers of Hanoi using recursion ? (Solution)
 
-Linked List
+### Linked List
 
 1. Linkedlist Reversal (Solution)
 2. Find node in Linkedlist (Solution)
@@ -76,7 +74,8 @@ Linked List
 8. Delete nth element from headnode (Solution)
 9. Detect a cycle in Linkedlist (Solution)
 
-Tree
+### Tree
+Trees are non linear data structures and are used in various applications like databases, websites, GUI and so on. 
 
 1. Implement Binary search tree (Solution)
 2. Implement Binary search tree Traversal(Solution)
@@ -85,13 +84,13 @@ Tree
 5. Breadth First Search (BFS) (Solution)
 6. Depth First Search (DFS)(Solution)
 
-Stack
+### Stack
 
 1. Stack Implementation (Solution)
 2. Stack with Push & Pop operation(Solution)
 3. Reverse a Stack (Solution)
 
-Sorting
+### Sorting
 
 1. Selection Sort program in C# (Solution)
 2. Insertion Sort program in C# (Solution)
@@ -104,7 +103,7 @@ Sorting
 9. Bucket Sort program in C# (Solution)
 10. Radix Sort program in C# (Solution)
 
-Misc
+### Misc
 
 1. Bellman–Ford Algorithm (Solution)
 2. Floyd–Warshall Algorithm (Solution)
