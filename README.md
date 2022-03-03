@@ -77,9 +77,13 @@ Data Structures and Algorithms play a key role in determining how our code will 
 ### Tree
 Trees are non linear data structures and are used in various applications like databases, websites, GUI and so on. They are by definition recursive data structures and constucting them with recursion is far more intuitive.
 
+1. Implement Binary tree (Solution)
+2. Implement Binary tree using array input (Solution)
+
 **Building tree using array input**
 
 Input: 10, 20, 30, 40, 50, 60, 70, 80, 90, 100
+
 Desired Output of complete binary tree
 
                  10                               
@@ -107,8 +111,6 @@ With the base case for recursion
 
 `i >= input.length`
 
-1. Implement Binary tree (Solution)
-2. Implement Binary tree using array input (Solution)
 3. Implement Binary search tree (Solution)
 4. Implement Binary search tree Traversal(Solution)
 5. Find min and max in Binary search tree (Solution)
