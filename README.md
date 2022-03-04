@@ -4,7 +4,7 @@
 
 ## Overview
 
-Data Structures and Algorithms play a key role in determining how our code will perform against Time and Space complexity. The questions and the solutions provided are focused on implementing the best practices to solve the problems.
+Data Structures and Algorithms play a key role in determining how our code will perform against Time and Space complexity. 
 
 ## Coding Practice Questions using C# and .Net Core
 
@@ -33,7 +33,7 @@ Data Structures and Algorithms play a key role in determining how our code will 
 10. How to check if array contains a duplicate number? (Solution)
 11. Linear Search in array [(Solution)](https://github.com/neetamlimbu/DataStructuresAndAlgorithms/tree/master/Arrays/LinearSearch)
 12. Binary Search in array [(Solution)](https://github.com/neetamlimbu/DataStructuresAndAlgorithms/tree/master/Arrays/BinarySearch)
-13. Aggregate and Filter arrays [(Solution)](https://github.com/neetamlimbu/DataStructuresAndAlgorithms/tree/master/Arrays/AggregateAndFilter)
+13. Aggregate and filter arrays [(Solution)](https://github.com/neetamlimbu/DataStructuresAndAlgorithms/tree/master/Arrays/AggregateAndFilter)
 
 ### Numbers
 
@@ -64,7 +64,6 @@ Data Structures and Algorithms play a key role in determining how our code will 
 11. How to print nth number in Fibonacci series using recursion? (Solution)
 
 ### Linked List
-
 
 1. Linkedlist Reversal (Solution)
 2. Find a node in Linkedlist (Solution)
