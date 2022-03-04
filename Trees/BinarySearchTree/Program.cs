@@ -24,6 +24,8 @@ namespace BinarySearchTree
             Console.WriteLine();
             binarySearchTree.Search(8);
             binarySearchTree.Search(15);
+            Console.WriteLine("Min Value is {0}", binarySearchTree.FindMin()); 
+            Console.WriteLine("Max Value is {0}", binarySearchTree.FindMax()); 
         }
     }
 }

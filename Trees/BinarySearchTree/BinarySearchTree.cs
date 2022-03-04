@@ -107,5 +107,43 @@ namespace BinarySearchTree
                 Console.WriteLine("Number {0} not found", number);
             }
         }
+
+        public int FindMin()
+        {
+            if (root == null)
+                return -1;
+
+            int min = FindMin(root);
+            return min;
+        }
+
+        private int FindMin(TreeNode treeNode)
+        {
+            if (treeNode.left == null)
+            {
+                return treeNode.data;
+            }
+
+            return FindMin(treeNode.left);
+        }
+
+        public int FindMax()
+        {
+            if (root == null)
+                return -1;
+
+            int max = FindMax(root);
+            return max;
+        }
+
+        private int FindMax(TreeNode treeNode)
+        {
+            if (treeNode.right == null)
+            {
+               return treeNode.data;
+            }
+
+            return  FindMax(treeNode.right);
+        }
     }
 }
