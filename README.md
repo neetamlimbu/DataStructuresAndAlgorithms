@@ -10,75 +10,77 @@ Data Structures and Algorithms play a key role in determining how our code will 
 
 ### Strings 
 
-1. How to print duplicate characters in a String? [(Solution)](https://github.com/neetamlimbu/DataStructuresAndAlgorithms/tree/master/Strings/DuplicateCharacters) 
-2. How to check if two Strings are anagrams of each other? [(Solution)](https://github.com/neetamlimbu/DataStructuresAndAlgorithms/tree/master/Strings/Anagrams)
+1. How to print duplicate characters in a string? [(Solution)](https://github.com/neetamlimbu/DataStructuresAndAlgorithms/tree/master/Strings/DuplicateCharacters) 
+2. How to check if two strings are anagrams of each other? [(Solution)](https://github.com/neetamlimbu/DataStructuresAndAlgorithms/tree/master/Strings/Anagrams)
 3. How to reverse String in C# using Iteration and Recursion? [(Solution)](https://github.com/neetamlimbu/DataStructuresAndAlgorithms/tree/master/Strings/ReverseString)
-4. How to count number of words in a String? [(Solution)](https://github.com/neetamlimbu/DataStructuresAndAlgorithms/tree/master/Strings/WordCount)
-5. How to check if String is Palindrome? [(Solution)](https://github.com/neetamlimbu/DataStructuresAndAlgorithms/tree/master/Strings/Palindrome)
-6. How to remove duplicate characters from String? [(Solution)](https://github.com/neetamlimbu/DataStructuresAndAlgorithms/tree/master/Strings/RemoveDuplicateCharacters)
-7. How to return highest occurred character in a String? [(Solution)](https://github.com/neetamlimbu/DataStructuresAndAlgorithms/tree/master/Strings/HighestOccurredCharacter)
-8. Find all substring in a string. [(Solution)](https://github.com/neetamlimbu/DataStructuresAndAlgorithms/tree/master/Strings/SubstringInAString)
+4. How to count number of words in a string? [(Solution)](https://github.com/neetamlimbu/DataStructuresAndAlgorithms/tree/master/Strings/WordCount)
+5. How to check if a given string is a Palindrome? [(Solution)](https://github.com/neetamlimbu/DataStructuresAndAlgorithms/tree/master/Strings/Palindrome)
+6. How to remove duplicate characters from string? [(Solution)](https://github.com/neetamlimbu/DataStructuresAndAlgorithms/tree/master/Strings/RemoveDuplicateCharacters)
+7. How to return highest occurrance of a character in a string? [(Solution)](https://github.com/neetamlimbu/DataStructuresAndAlgorithms/tree/master/Strings/HighestOccurredCharacter)
+8. Find all substrings in a string. [(Solution)](https://github.com/neetamlimbu/DataStructuresAndAlgorithms/tree/master/Strings/SubstringInAString)
 
 ### Arrays
 
 1. Rotate array to a given pivot (Solution)
 2. Determine if any two integers in array sum to given integer (Solution)
 3. Sort an array in descending order (Solution)
-4. Reverse an array (Solution)
+4. Reverse an array [(Solution)](https://github.com/neetamlimbu/DataStructuresAndAlgorithms/tree/master/Arrays/ReverseArray)
 5. Find majority element in an unsorted array (Solution)
 6. Merge two sorted arrays into one (Solution)
 7. How to find missing number in integer array of 1 to 100?
 8. Swap min and max element in integer array (Solution)
 9. Move zeros to end of array (Solution)
 10. How to check if array contains a duplicate number? (Solution)
+11. Linear Search in array [(Solution)](https://github.com/neetamlimbu/DataStructuresAndAlgorithms/tree/master/Arrays/LinearSearch)
+12. Binary Search in array [(Solution)](https://github.com/neetamlimbu/DataStructuresAndAlgorithms/tree/master/Arrays/BinarySearch)
+13. Aggregate and Filter arrays [(Solution)](https://github.com/neetamlimbu/DataStructuresAndAlgorithms/tree/master/Arrays/AggregateAndFilter)
 
 ### Numbers
 
-1. How to swap two numbers without using a temp variable in C# (Solution)
-2. Write a C# program to determine total ways stairs can be climbed (Solution)
-3. Write a C# program to calculate factorial using recursion (Solution)
-4. Write a C# function to print nth number in Fibonacci series? (Solution)
-5. Write a C# function to accept 2 integers and return remainder (Solution)
-6. Write a C# program to check if the entered number is Armstrong number? (Solution)
-7. Write a C# program to find GCD and LCM? (Solution)
-8. Write a C# program to check if a number is prime or not (Solution)
-9. Write a C# program to check if a number is Palindromic or not (Solution)
-10. Write a C# program to solve FizzBuzz problem (Solution)
-11. Write a C# program to check if a number is divisible by 2 (Solution)
-12. Write a C# program to do basic arithmetic calculations (Solution)
-13. C# program to display factor of entered number (Solution)
+1. How to swap two numbers without using a temp variable (Solution)
+2. How to determine total ways a stair can be climbed (Solution) 
+3. How to accept 2 integers and return remainder (Solution)
+4. How to check if the entered number is Armstrong number? (Solution)
+5. How to find GCD and LCM? (Solution)
+6. How to check if a number is prime or not (Solution)
+7. How to check if a number is Palindromic or not (Solution)
+8. How to solve FizzBuzz problem (Solution)
+9. How to check if a number is divisible by 2 (Solution)
+10. How to do basic arithmetic calculations (Solution)
+11. How to display factor of entered number (Solution)
 
 ### Recursion
 
-1. How to find factorial of a number using recursion ? (Solution)
-2. How to find the sum of digits of a number using recursion ? (Solution)
-3. How to convert a number from Decimal to Binary using recursion ? (Solution)
-4. How to calculate Power of a number using recursion ? (Solution)
-5. How to reverse a LinkedList using recursion ? (Solution)
-6. How to form the Fibonacci series using recursion ? (Solution)
+1. How to find factorial of a number using recursion? [(Solution)](https://github.com/neetamlimbu/DataStructuresAndAlgorithms/tree/master/recursion/Factorial)
+2. How to find the sum of digits of a number using recursion? (Solution)
+3. How to convert a number from Decimal to Binary using recursion? (Solution)
+4. How to calculate Power of a number using recursion? (Solution)
+5. How to reverse a LinkedList using recursion? (Solution)
+6. How to form the Fibonacci series using recursion? (Solution)
 7. How to do a recursive binary search in an array? (Solution)
-8. Write recursive Quicksort algorithm in C#? (Solution)
-9. How to find GCD using recursion? (Solution)
-10. How to print a singly linked list backwards using recursion ? (Solution)
-11. Towers of Hanoi using recursion ? (Solution)
+8. How to find GCD using recursion? (Solution)
+9. How to print a singly linked list backwards using recursion? (Solution)
+10. Towers of Hanoi using recursion? (Solution)
+11. How to print nth number in Fibonacci series using recursion? (Solution)
 
 ### Linked List
 
+
 1. Linkedlist Reversal (Solution)
-2. Find node in Linkedlist (Solution)
-3. Merge two sorted Linkedlist (Solution)
+2. Find a node in Linkedlist (Solution)
+3. Merge two sorted Linkedlists (Solution)
 4. Singly LinkedList Traversal (Solution)
 5. Circular Singly Linked List (Solution)
 6. Remove duplicates from a sorted Linkedlist (Solution)
 7. Find nth to last element in Singly Linkedlist (Solution)
-8. Delete nth element from headnode (Solution)
+8. Delete nth element from the Head Node (Solution)
 9. Detect a cycle in Linkedlist (Solution)
 
 ### Tree
 Trees are non linear data structures and are used in various applications like databases, websites, GUI and so on. They are by definition recursive data structures and constucting them with recursion is far more intuitive.
 
-1. Implement Binary tree (Solution)
-2. Implement Binary tree using array input (Solution)
+1. Implement a simple Binary tree [(Solution)](https://github.com/neetamlimbu/DataStructuresAndAlgorithms/tree/master/Trees/BinaryTree)
+2. Implement Binary tree using array input [(Solution)](https://github.com/neetamlimbu/DataStructuresAndAlgorithms/tree/master/Trees/ArrayToBinaryTree)
 
 **Building tree using array input**
 
@@ -111,12 +113,11 @@ With the base case for recursion
 
 `i >= input.length`
 
-3. Implement Binary search tree (Solution)
-4. Implement Binary search tree Traversal(Solution)
-5. Find min and max in Binary search tree (Solution)
-6. Delete nodes from Binary search tree (Solution)
-7. Breadth First Search (BFS) (Solution)
-8. Depth First Search (DFS)(Solution)
+3. Implement Binary Search Tree, traverse and search Binary Search Tree [(Solution)](https://github.com/neetamlimbu/DataStructuresAndAlgorithms/tree/master/Trees/BinarySearchTree)
+4. Find min and max in Binary search tree (Solution)
+5. Delete nodes from Binary search tree (Solution)
+6. Breadth First Search (BFS) (Solution)
+7. Depth First Search (DFS)(Solution)
 
 ### Stack
 
@@ -126,16 +127,16 @@ With the base case for recursion
 
 ### Sorting
 
-1. Selection Sort program in C# (Solution)
-2. Insertion Sort program in C# (Solution)
-3. Heap Sort program in C# (Solution)
-4. Merge Sort program in C# (Solution)
-5. Quick Sort program in C# (Solution)
-6. Bubble Sort program  in C# (Solution)
-7. Shell Sort program in C# (Solution)
-8. Comb Sort program in C# (Solution)
-9. Bucket Sort program in C# (Solution)
-10. Radix Sort program in C# (Solution)
+1. Selection Sort program (Solution)
+2. Insertion Sort program (Solution)
+3. Heap Sort program (Solution)
+4. Merge Sort program (Solution)
+5. Quick Sort program (Solution)
+6. Bubble Sort program (Solution)
+7. Shell Sort program (Solution)
+8. Comb Sort program (Solution)
+9. Bucket Sort program (Solution)
+10. Radix Sort program (Solution)
 
 ### Misc
 
