@@ -24,34 +24,49 @@ namespace ArrayToBinaryTree
             return nextTreeNode;
         }
 
-        public void DisplayInOrderTraversal(TreeNode root)
+        public void DisplayInOrderTraversal()
         {
-            if (root == null)
-                return;
-
-            DisplayInOrderTraversal(root.left);
-            Console.Write(root.data + " ");
-            DisplayInOrderTraversal(root.right);
+            InOrder(root);
         }
 
-        public void DisplayPreOrderTraversal(TreeNode root)
+        private void InOrder(TreeNode treeNode)
         {
-            if (root == null)
+            if (treeNode == null)
                 return;
 
-            Console.Write(root.data + " ");
-            DisplayPreOrderTraversal(root.left);
-            DisplayPreOrderTraversal(root.right);
+            InOrder(treeNode.left);
+            Console.Write(treeNode.data + " ");
+            InOrder(treeNode.right);
         }
 
-        public void DisplayPostOrderTraversal(TreeNode root)
+        public void DisplayPreOrderTraversal()
         {
-            if (root == null)
+            PreOrder(root);
+        }
+
+        private void PreOrder(TreeNode treeNode)
+        {
+            if (treeNode == null)
                 return;
 
-            DisplayPostOrderTraversal(root.left);
-            DisplayPostOrderTraversal(root.right);
-            Console.Write(root.data + " ");
+            Console.Write(treeNode.data + " ");
+            PreOrder(treeNode.left);
+            PreOrder(treeNode.right);
+        }
+
+        public void DisplayPostOrderTraversal()
+        {
+            PostOrder(root);
+        }
+
+        private void PostOrder(TreeNode treeNode)
+        {
+            if (treeNode == null)
+                return;
+
+            PostOrder(treeNode.left);
+            PostOrder(treeNode.right);
+            Console.Write(treeNode.data + " ");
         }
     }
 }

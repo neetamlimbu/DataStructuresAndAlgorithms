@@ -13,13 +13,13 @@ namespace ArrayToBinaryTree
             BinaryTree binaryTree = new BinaryTree(arr);
             TreeNode root = binaryTree.root;
             Console.WriteLine("In Order Traversal");
-            binaryTree.DisplayInOrderTraversal(root);
+            binaryTree.DisplayInOrderTraversal();
             Console.WriteLine();
             Console.WriteLine("Pre Order Traversal");
-            binaryTree.DisplayPreOrderTraversal(root);
+            binaryTree.DisplayPreOrderTraversal();
             Console.WriteLine();
             Console.WriteLine("Post Order Traversal");
-            binaryTree.DisplayPostOrderTraversal(root);
+            binaryTree.DisplayPostOrderTraversal();
         }
     }
 }
