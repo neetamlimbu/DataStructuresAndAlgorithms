@@ -113,6 +113,14 @@ namespace BinarySearchTree
             if (root == null)
                 return -1;
 
+            //Iterative
+            // var cur = root;
+            // while (cur.left != null)
+            //     cur = cur.left;
+            
+            // return cur.data;
+
+            //Recursive
             int min = FindMin(root);
             return min;
         }
@@ -131,7 +139,15 @@ namespace BinarySearchTree
         {
             if (root == null)
                 return -1;
+            
+            //Iterative
+            // var cur = root;
+            // while(cur.right != null)
+            // cur = cur.right;
 
+            // return cur.data;
+
+            //Recursive
             int max = FindMax(root);
             return max;
         }
@@ -140,10 +156,10 @@ namespace BinarySearchTree
         {
             if (treeNode.right == null)
             {
-               return treeNode.data;
+                return treeNode.data;
             }
 
-            return  FindMax(treeNode.right);
+            return FindMax(treeNode.right);
         }
     }
 }
