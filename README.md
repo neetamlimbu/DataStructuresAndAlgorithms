@@ -126,12 +126,12 @@ With the base case for recursion
 
 ### Sorting
 
-1. Selection Sort program (Solution)
-2. Insertion Sort program (Solution)
+1. Selection Sort program [(Solution)](https://github.com/neetamlimbu/DataStructuresAndAlgorithms/tree/master/Sorting/SelectionSort)
+2. Insertion Sort program [(Solution)](https://github.com/neetamlimbu/DataStructuresAndAlgorithms/tree/master/Sorting/InsertionSort)
 3. Heap Sort program (Solution)
-4. Merge Sort program (Solution)
-5. Quick Sort program (Solution)
-6. Bubble Sort program (Solution)
+4. Merge Sort program [(Solution)](https://github.com/neetamlimbu/DataStructuresAndAlgorithms/tree/master/Sorting/MergeSort)
+5. Quick Sort program [(Solution)](https://github.com/neetamlimbu/DataStructuresAndAlgorithms/tree/master/Sorting/QuickSort)
+6. Bubble Sort program [(Solution)](https://github.com/neetamlimbu/DataStructuresAndAlgorithms/tree/master/Sorting/BubbleSort)
 7. Shell Sort program (Solution)
 8. Comb Sort program (Solution)
 9. Bucket Sort program (Solution)
