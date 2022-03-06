@@ -37,17 +37,14 @@ Data Structures and Algorithms play a key role in determining how our code will 
 
 ### Numbers
 
-1. How to swap two numbers without using a temp variable (Solution)
-2. How to determine total ways a stair can be climbed (Solution) 
+1. How to swap two numbers without using a temp variable? (Solution)
+2. How to determine the total ways a stair can be climbed? (Solution) 
 3. How to accept 2 integers and return remainder (Solution)
 4. How to check if the entered number is Armstrong number? (Solution)
 5. How to find GCD and LCM? (Solution)
-6. How to check if a number is prime or not (Solution)
-7. How to check if a number is Palindromic or not (Solution)
-8. How to solve FizzBuzz problem (Solution)
-9. How to check if a number is divisible by 2 (Solution)
-10. How to do basic arithmetic calculations (Solution)
-11. How to display factor of entered number (Solution)
+6. How to check if a number is prime or not? (Solution)
+7. How to check if a number is palindromic or not? (Solution)
+8. How to solve FizzBuzz problem? (Solution)
 
 ### Recursion
 
