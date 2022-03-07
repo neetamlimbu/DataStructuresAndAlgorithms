@@ -110,7 +110,7 @@ With the base case for recursion
 `i >= input.length`
 
 3. Implement Binary Search Tree, traverse and search Binary Search Tree [(Solution)](https://github.com/neetamlimbu/DataStructuresAndAlgorithms/tree/master/Trees/BinarySearchTree)
-4. Find min and max in Binary search tree (Solution)
+4. Find min and max in Binary search tree [(Solution)](https://github.com/neetamlimbu/DataStructuresAndAlgorithms/tree/master/Trees/BinarySearchTree)
 5. Delete nodes from Binary search tree (Solution)
 6. Breadth First Search (BFS) (Solution)
 7. Depth First Search (DFS)(Solution)
