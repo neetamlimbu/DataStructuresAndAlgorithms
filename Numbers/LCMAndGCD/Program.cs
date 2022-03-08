@@ -9,7 +9,11 @@ namespace LCMAndGCD
             Console.WriteLine("LCM and GCD...");
             int num1 = 24;
             int num2 = 36;
-            Console.WriteLine(string.Format("LCM of {0} and {1} is {2}.", num1, num2, GetLCM(num1, num2)));
+            Console.WriteLine("LCM of {0} and {1} is {2}.", num1, num2, GetLCM(num1, num2));
+
+            int num3 = 5;
+            int num4 = 15;
+            Console.WriteLine("GCD of {0} and {1} is {2}.", num3, num4, GetGCD(num3, num4));
         }
 
         static int GetLCM(int a, int b)
@@ -44,6 +48,21 @@ namespace LCMAndGCD
             }
 
             return smallerNumber * largerNumber;
+        }
+
+        static int GetGCD(int a, int b)
+        {
+            int remainder;
+
+            //Swap remainder until the remainder is 0
+            while (b != 0)
+            {
+                remainder = a % b;
+                a = b;
+                b = remainder;
+            }
+
+            return a;
         }
     }
 }
