@@ -72,7 +72,14 @@ Data Structures and Algorithms play a key role in determining how our code will 
 8. Delete nth element from the Head Node (Solution)
 9. Detect a cycle in Linkedlist (Solution)
 
+### Stack
+
+1. Stack Implementation (Solution)
+2. Stack with Push & Pop operation(Solution)
+3. Reverse a Stack (Solution)
+
 ### Tree
+
 Trees are non linear data structures and are used in various applications like databases, websites, GUI and so on. They are by definition recursive data structures and constucting them with recursion is far more intuitive.
 
 1. Implement a simple Binary tree [(Solution)](https://github.com/neetamlimbu/DataStructuresAndAlgorithms/tree/master/Trees/BinaryTree)
@@ -113,13 +120,12 @@ With the base case for recursion
 4. Find min and max in Binary search tree [(Solution)](https://github.com/neetamlimbu/DataStructuresAndAlgorithms/tree/master/Trees/BinarySearchTree)
 5. Delete nodes from Binary search tree (Solution)
 6. Breadth First Search (BFS) (Solution)
-7. Depth First Search (DFS)(Solution)
+7. Depth First Search (DFS) (Solution)
 
-### Stack
+### Graph
 
-1. Stack Implementation (Solution)
-2. Stack with Push & Pop operation(Solution)
-3. Reverse a Stack (Solution)
+1. Breadth First Search (BFS) [(Solution)](https://github.com/neetamlimbu/DataStructuresAndAlgorithms/tree/master/Graphs/BFS)
+2. Depth First Search (DFS) [(Solution)](https://github.com/neetamlimbu/DataStructuresAndAlgorithms/tree/master/Graphs/DFS)
 
 ### Sorting
 
