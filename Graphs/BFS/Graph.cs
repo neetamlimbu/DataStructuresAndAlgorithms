@@ -42,7 +42,7 @@ namespace BFS
                 Console.Write(startVertex + " ");
                 queue.RemoveFirst();
 
-                //Get all adjacent vertices of the dequeued vertex s
+                //Get all adjacent vertices of the dequeued start vertex
                 //If a adjacent has not been visited, then mark it visited and enqueue it
                 LinkedList<int> list = adj[startVertex];
 
@@ -56,7 +56,7 @@ namespace BFS
                 }
             }
         }
-    
+
         public void BFS(int startVertex)
         {
             bool[] visited = new bool[v];
