@@ -48,7 +48,7 @@ Data Structures and Algorithms play a key role in determining how our code will 
 
 ### Recursion
 
-1. How to find factorial of a number using recursion? [(Solution)](https://github.com/neetamlimbu/DataStructuresAndAlgorithms/tree/master/recursion/Factorial)
+1. How to find factorial of a number using recursion? [(Solution)](https://github.com/neetamlimbu/DataStructuresAndAlgorithms/tree/master/Recursion/Factorial)
 2. How to find the sum of digits of a number using recursion? (Solution)
 3. How to convert a number from Decimal to Binary using recursion? (Solution)
 4. How to calculate Power of a number using recursion? (Solution)
