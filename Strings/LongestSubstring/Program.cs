@@ -8,10 +8,10 @@ namespace LongestSubstring
         static void Main(string[] args)
         {
             Console.WriteLine("Longest Substring...");
-            Console.WriteLine(LongestSubstring(" "));
+            Console.WriteLine(LongestSubstring(" ")); //whitespace => 1
             Console.WriteLine(LongestSubstring("pwwkew")); //wke => 3
             Console.WriteLine(LongestSubstring("aab")); //ab => 2
-            Console.WriteLine(LongestSubstring("dvdf"));
+            Console.WriteLine(LongestSubstring("dvdf")); //vdf => 3
             Console.WriteLine(LongestSubstring("abcabcbb")); //abc => 3
             Console.WriteLine(LongestSubstring("bbbbb")); //b=> 1
         }
@@ -53,19 +53,22 @@ namespace LongestSubstring
             // }
 
             //Sliding window
-            int left = 0, right = 0;
+            int left = 0, right = 0; //Left and right pointer to index
             HashSet<char> chars = new HashSet<char>();
 
             while (right < s.Length)
             {
-                char c = s[right];
-                while (chars.Contains(c))
+                //Add the new character to hashset if it does not already exist in hashset which will increase the size of our sliding window
+                //When a duplicate character is encountered in hashset, start removing the characters using left pointer until we reach to the index of duplicate character
+                //The above step will decrease the size of our sliding window
+                while (chars.Contains(s[right]))
                 {
                     chars.Remove(s[left]);
                     left++;
                 }
-                chars.Add(c);
-                max = Math.Max(max, right - left + 1);
+
+                chars.Add(s[right]);
+                max = Math.Max(max, right - left + 1); //Since we start from 0 index, we add 1 to balance our count
                 right++;
             }
 
