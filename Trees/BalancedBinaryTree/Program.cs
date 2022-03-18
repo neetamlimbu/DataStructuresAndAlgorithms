@@ -39,7 +39,7 @@ namespace BalancedBinaryTree
             if (root == null)
                 return true;
 
-            if (Math.Abs(GetHeight(root.left) - GetHeight(root.right)) > 0)
+            if (Math.Abs(Height(root.left) - Height(root.right)) > 0)
             {
                 return false;
             }
@@ -47,12 +47,12 @@ namespace BalancedBinaryTree
             return IsBalanced(root.left) && IsBalanced(root.right);
         }
 
-        static int GetHeight(TreeNode treeNode)
+        static int Height(TreeNode treeNode)
         {
             if (treeNode == null)
                 return 0;
 
-            return Math.Max(GetHeight(treeNode.left), GetHeight(treeNode.right)) + 1;
+            return Math.Max(Height(treeNode.left), Height(treeNode.right)) + 1;
         }
     }
 }
