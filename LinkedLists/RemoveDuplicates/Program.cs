@@ -42,7 +42,6 @@ namespace RemoveDuplicates
                 {
                     if (current.next.next != null)
                     {
-                        current.next.val = current.next.next.val;
                         current.next = current.next.next;
                     }
                     else
