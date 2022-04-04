@@ -11,7 +11,7 @@ namespace NumberOfLines
 
             int[] widths = { 4, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10 };
             string s = "bbbcccdddaaa";
-            int[] result = NumberOfLines(widths, s);
+            int[] result = NumberOfLinesUsingASCII(widths, s);
             Console.WriteLine(result[0]);
             Console.WriteLine(result[1]);
         }
@@ -44,6 +44,27 @@ namespace NumberOfLines
                 }
             }
 
+            result[0] = lines;
+            result[1] = totalPixels;
+            return result;
+        }
+
+        static int[] NumberOfLinesUsingASCII(int[] widths, string s)
+        {
+            int lines = 1;
+            int totalPixels = 0;
+            for (int i = 0; i < s.Length; i++)
+            {
+                char c = s[i];
+                totalPixels += widths[c - 'a']; //Index of the character in width is c - 'a'
+                if (totalPixels > 100)
+                {
+                    lines++;
+                    totalPixels = widths[c - 'a'];
+                }
+            }
+
+            int[] result = new int[2];
             result[0] = lines;
             result[1] = totalPixels;
             return result;
