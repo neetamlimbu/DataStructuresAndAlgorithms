@@ -8,7 +8,7 @@ namespace FindDuplicate
         {
             Console.WriteLine("Find the Duplicate Number - LeetCode 287");
 
-            // int[] nums = { 1, 3, 4, 2, 2 };
+            //int[] nums = { 1, 3, 4, 2, 2 };
             // [3,1,3,4,2]
             int[] nums = { 3, 1, 3, 4, 2 };
             Console.WriteLine(FindDuplicate(nums));
