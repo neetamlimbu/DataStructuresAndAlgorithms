@@ -30,6 +30,7 @@ namespace MergeKSortedLists
             }
         }
 
+        //Total time complexity for this algorithm is O(nlogk)
         static ListNode MergeKLists(ListNode[] lists)
         {
             if (lists == null || lists.Length == 0)
@@ -37,6 +38,7 @@ namespace MergeKSortedLists
 
             ArrayList mergedList = new ArrayList();
 
+            //Time complexity here is O(n)
             while (lists.Length > 1)
             {
                 for (int i = 0; i < lists.Length; i = i + 2)
@@ -57,7 +59,9 @@ namespace MergeKSortedLists
             return lists[0];
         }
 
-        static ListNode MergeLists(ListNode l1, ListNode l2)
+        //Since we are using merge sort to merge two linked lists
+        //Time complexity => O(logk)
+        static ListNode MergeLists(ListNode l1, ListNode l2) 
         {
             ListNode dummy = new ListNode();
             ListNode tail = dummy;
