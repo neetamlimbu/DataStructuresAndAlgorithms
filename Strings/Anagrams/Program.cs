@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 
 namespace Anagrams
@@ -9,7 +10,7 @@ namespace Anagrams
         //For example, the letters that make up “A decimal point” can be turned into the anagram “I'm a dot in place.”
         static void Main(string[] args)
         {
-            Console.WriteLine("Checking if two strings are anagrams...");
+            Console.WriteLine("Valid Anagram - LeetCode 242");
 
             //Test cases
             string testString1 = "silent";
@@ -18,6 +19,8 @@ namespace Anagrams
             string testString4 = "runs    a    treat   ";
             string testString5 = "csharp";
             string testString6 = "programming";
+            string testString7 = "rat";
+            string testString8 = "car";
 
             Console.WriteLine("Are {0} and {1} anagrams? {2}", testString1, testString2, IsValidAnagram(testString1, testString2) == true ?
             "Yes" : "No");
@@ -25,10 +28,12 @@ namespace Anagrams
             "Yes" : "No");
             Console.WriteLine("Are {0} and {1} anagrams? {2}", testString5, testString6, IsValidAnagram(testString5, testString6) == true ?
             "Yes" : "No");
+            Console.WriteLine("Are {0} and {1} anagrams? {2}", testString7, testString8, IsValidAnagram(testString7, testString8) == true ?
+           "Yes" : "No");
         }
 
 
-        static bool IsValidAnagram(string first, string second)
+        static bool IsValidAnagramBruteForce(string first, string second)
         {
             first = first.Replace(" ", "").ToLower().Trim();
             second = second.Replace(" ", "").ToLower().Trim();
@@ -43,15 +48,57 @@ namespace Anagrams
             Array.Sort(secondArr);
 
             // //Brute Force 
-            // for (int i = 0; i < firstArr.Count() - 1; i++)
-            // {
-            //     if (firstArr[i] != secondArr[i])
-            //         return false;
-            // }
+            for (int i = 0; i < firstArr.Count(); i++)
+            {
+                if (firstArr[i] != secondArr[i])
+                    return false;
+            }
 
-            // return true;
+            return true;
+        }
 
-            return firstArr.ToString().Equals(secondArr.ToString());
+        static bool IsValidAnagram(string s, string t)
+        {
+            s = s.Replace(" ", "").ToLower().Trim();
+            t = t.Replace(" ", "").ToLower().Trim();
+
+            if (s.Length != t.Length)
+                return false;
+
+            Dictionary<char, int> sMap = new Dictionary<char, int>();
+            Dictionary<char, int> tMap = new Dictionary<char, int>();
+
+            for (int i = 0; i < s.Length; i++)
+            {
+                if (sMap.ContainsKey(s[i]))
+                {
+                    sMap[s[i]]++;
+                }
+                else
+                {
+                    sMap.Add(s[i], 1);
+                }
+
+                if (tMap.ContainsKey(t[i]))
+                {
+                    tMap[t[i]]++;
+                }
+                else
+                {
+                    tMap.Add(t[i], 1);
+                }
+            }
+
+            foreach (char c in sMap.Keys)
+            {
+                if (!tMap.ContainsKey(c))
+                    return false;
+
+                if (sMap[c] != tMap[c])
+                    return false;
+            }
+
+            return true;
         }
     }
 }
