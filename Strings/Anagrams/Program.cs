@@ -22,13 +22,13 @@ namespace Anagrams
             string testString7 = "rat";
             string testString8 = "car";
 
-            Console.WriteLine("Are {0} and {1} anagrams? {2}", testString1, testString2, IsValidAnagram(testString1, testString2) == true ?
+            Console.WriteLine("Are {0} and {1} anagrams? {2}", testString1, testString2, IsValidAnagramASCII(testString1, testString2) == true ?
             "Yes" : "No");
-            Console.WriteLine("Are {0} and {1} anagrams? {2}", testString3, testString4, IsValidAnagram(testString3, testString4) == true ?
+            Console.WriteLine("Are {0} and {1} anagrams? {2}", testString3, testString4, IsValidAnagramASCII(testString3, testString4) == true ?
             "Yes" : "No");
-            Console.WriteLine("Are {0} and {1} anagrams? {2}", testString5, testString6, IsValidAnagram(testString5, testString6) == true ?
+            Console.WriteLine("Are {0} and {1} anagrams? {2}", testString5, testString6, IsValidAnagramASCII(testString5, testString6) == true ?
             "Yes" : "No");
-            Console.WriteLine("Are {0} and {1} anagrams? {2}", testString7, testString8, IsValidAnagram(testString7, testString8) == true ?
+            Console.WriteLine("Are {0} and {1} anagrams? {2}", testString7, testString8, IsValidAnagramASCII(testString7, testString8) == true ?
            "Yes" : "No");
         }
 
@@ -99,6 +99,36 @@ namespace Anagrams
             }
 
             return true;
+        }
+
+        static bool IsValidAnagramASCII(string s, string t)
+        {
+            s = s.Replace(" ", "").ToLower().Trim();
+            t = t.Replace(" ", "").ToLower().Trim();
+
+            if (s.Length != t.Length)
+                return false;
+
+            int[] count = new int[26];
+
+
+            for (int i = 0; i < s.Length; i++)
+            {
+                count[(char)s[i] - 'a'] += 1;
+            }
+
+            int[] result = count;
+
+            count = new int[26];
+            for (int i = 0; i < t.Length; i++)
+            {
+                count[(char)t[i] - 'a'] += 1;
+            }
+
+            if (result.SequenceEqual(count))
+                return true;
+
+            return false;
         }
     }
 }
